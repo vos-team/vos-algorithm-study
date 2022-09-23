@@ -12,11 +12,14 @@ for _ in range(testCases):
     queue = deque(enumerate(scores))
 
     while(1):
-        if queue[0][1] >= max(queue, key = lambda x:x[1])[1]: 
+        currentIdx, score = queue.popleft()
+        if(len(queue) == 0):
+            print(count + 1)
+            break
+        if score >= max(queue, key = lambda x:x[1])[1]: 
             count += 1
-            currentIdx, _ = queue.popleft()
             if(currentIdx == m):
                 print(count)
                 break
         else:
-            queue.rotate(1)
+            queue.append((currentIdx, score))
