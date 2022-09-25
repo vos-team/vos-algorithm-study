@@ -19,7 +19,6 @@ for i in range(len(brackets)):
     for combination in combinations(brackets, i + 1):
         tmp = expressions[:]
         for s, e in combination:
-            tmp[s] = ''
-            tmp[e] = ''
+            tmp[s], tmp[e] = '', ''
         resultSet.add(''.join(tmp))
 [print(result) for result in sorted(list(resultSet))]
