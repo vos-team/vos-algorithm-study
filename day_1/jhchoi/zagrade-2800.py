@@ -22,5 +22,4 @@ for i in range(len(brackets)):
             tmp[s] = ''
             tmp[e] = ''
         resultSet.add(''.join(tmp))
-for result in sorted(list(resultSet)): 
-    print(result)
+[print(result) for result in sorted(list(resultSet))]
