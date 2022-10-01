@@ -1,6 +1,12 @@
+from collections import deque
+
+
 class Solution:
     def dailyTemperatures(self, temperatures):
-        st = [(0, 101)]  # 스택 생성 - 기본값으로 100도 보다 높은 값을 하나 넣어둬서 절대 빠져나오지 않도록 함
+        st = deque()
+        st.append((0, 101))
+        # 스택 생성 - 기본값으로 100도 보다 높은 값을 하나 넣어둬서 절대 빠져나오지 않도록 함
+
         answer = [0] * len(temperatures)  # 0으로 초기화한 정답 리스트 생성
 
         for i in range(len(temperatures)):
