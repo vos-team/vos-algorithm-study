@@ -1,5 +1,7 @@
 import sys
 
+sys.setrecursionlimit(10**5)
+
 # 풀이 1 -> 시간초과
 # getNum = lambda: int(sys.stdin.readline().strip())
 
@@ -103,14 +105,17 @@ def backward_tree(start, end):
     if end - start == 1:
         return print(root)
 
-    bp = start
-    for i in range(start, end):
-        if forward_tree[i] > root:
-            bp = i
-            break
+    if root > forward_tree[end - 1]:
+        bp = end
+    else:
+        bp = start
+        for i in range(start, end):
+            if forward_tree[i] > root:
+                bp = i
+                break
 
-    if bp == start:
-        bp = i + 1
+        if bp == start:
+            bp = i + 1
 
     backward_tree(start + 1, bp)
     backward_tree(bp, end)
