@@ -1,44 +1,29 @@
 import sys
+sys.setrecursionlimit(10**6)
 
 def input():
     return sys.stdin.readline().rstrip()
 
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.left = self.right = None
+preorder = []
 
-class BinarySearchTree:
-    def __init__(self):
-        self.root = None
-    
-    def insert(self, data):
-        self.root = self.__insert(self.root, data)
-    
-    def __insert(self, root, data):
-        if not root:
-            root = Node(data)
-        else:
-            if data <= root.data:
-                root.left = self.__insert(root.left, data)
-            else:
-                root.right = self.__insert(root.right, data)
-        return root
+def postorder(rootIndex, endIndex):
+    if rootIndex > endIndex: return 
+    root = preorder[rootIndex]
 
-    def postorder(self):
-        self.__postorder(self.root)
+    rightIndex = endIndex + 1
+    for i in range(rootIndex + 1, endIndex + 1):
+        if preorder[i] > root:
+            rightIndex = i
+            break
 
-    def __postorder(self, root):
-        if not root: return
-        self.__postorder(root.left)
-        self.__postorder(root.right)
-        print(root.data)
+    postorder(rootIndex + 1, rightIndex - 1)   
+    postorder(rightIndex, endIndex)
+    print(root)
 
-bst = BinarySearchTree()
 
 data = input()
 while(data):
-    bst.insert(int(data))
+    preorder.append(int(data))
     data = input()
 
-bst.postorder()
+postorder(0, len(preorder) - 1)
