@@ -8,7 +8,7 @@
 | :-----: | :----------------: | :-----------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
 | Day4-00 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/2750" target="_blank">2750</a> |   <a href="https://www.acmicpc.net/problem/2750" target="_blank">수 정렬하기</a>   | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/4.svg"/>  |
 | Day4-01 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/11399" target="_blank">11399</a>  | <a href="https://www.acmicpc.net/problem/11399" target="_blank"> ATM</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> |
-| Day4-02 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/11651" target="_blank">11651</a>  | <a href="https://www.acmicpc.net/problem/11651" target="_blank">좌표 정렬하기 2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>  |
+| Day4-02 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/11651" target="_blank">11651</a>  | <a href="https://www.acmicpc.net/problem/11651" target="_blank">좌표 정렬하기 2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>  |
 
 
 **_문제 답안 작성 요령_**<br>
