@@ -51,3 +51,13 @@ PR은 코드리뷰 완료가 되었다고 판단되면 admin인 무진님께서 
 | Day3-00 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/1463" target="_blank">1463</a> |   <a href="https://www.acmicpc.net/problem/1463" target="_blank">1로 만들기</a>   | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/>  |
 | Day3-01 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/1535" target="_blank">1535</a>  | <a href="https://www.acmicpc.net/problem/1535" target="_blank"> 안녕</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |
 | Day3-02 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/12904" target="_blank">12904</a>  | <a href="https://www.acmicpc.net/problem/12904" target="_blank">A와 B</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/>  |
+
+---
+
+### **_Day 4 문제 리스트_**
+
+|  순번   |     추천 문제      |                                 문제 번호                                 |                                  문제 이름                                   |                                       난이도                                       |
+| :-----: | :----------------: | :-----------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
+| Day4-00 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/2750" target="_blank">2750</a> |   <a href="https://www.acmicpc.net/problem/2750" target="_blank">수 정렬하기</a>   | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/4.svg"/>  |
+| Day4-01 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/11399" target="_blank">11399</a>  | <a href="https://www.acmicpc.net/problem/11399" target="_blank"> ATM</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> |
+| Day4-02 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/11651" target="_blank">11651</a>  | <a href="https://www.acmicpc.net/problem/11651" target="_blank">좌표 정렬하기 2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>  |
