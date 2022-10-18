@@ -17,10 +17,26 @@ coords_input = """5
 2 2
 3 3"""
 
+string_sort_input = """13
+but
+i
+wont
+hesitate
+no
+more
+no
+more
+it
+cannot
+wait
+im
+yours"""
+
 tests = [
     ("00_ascending.py", ascending_input),
     ("01_time_sum_min.py", time_sum_min_input),
     ("02_coords.py", coords_input),
+    ("03_string_sort.py", string_sort_input),
 ]
 
 for fp, input_text in tests:
