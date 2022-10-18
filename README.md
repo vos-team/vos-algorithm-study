@@ -61,3 +61,13 @@ PR은 코드리뷰 완료가 되었다고 판단되면 admin인 무진님께서 
 | Day4-00 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/2750" target="_blank">2750</a> |   <a href="https://www.acmicpc.net/problem/2750" target="_blank">수 정렬하기</a>   | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/4.svg"/>  |
 | Day4-01 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/11399" target="_blank">11399</a>  | <a href="https://www.acmicpc.net/problem/11399" target="_blank"> ATM</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> |
 | Day4-02 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/11651" target="_blank">11651</a>  | <a href="https://www.acmicpc.net/problem/11651" target="_blank">좌표 정렬하기 2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>  |
+
+---
+
+### **_Day 5 문제 리스트_**
+
+|  순번   |     추천 문제      |                                 문제 번호                                 |                                  문제 이름                                   |                                       난이도                                       |
+| :-----: | :----------------: | :-----------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
+| Day5-00 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/1063" target="_blank">1063</a> |   <a href="https://www.acmicpc.net/problem/1063" target="_blank">공</a>   | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/3.svg"/>  |
+| Day5-01 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/10971" target="_blank">10971</a>  | <a href="https://www.acmicpc.net/problem/10971" target="_blank"> 외판원 순회2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |
+| Day5-02 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/3190" target="_blank">3190</a>  | <a href="https://www.acmicpc.net/problem/3190" target="_blank">뱀</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>  |
