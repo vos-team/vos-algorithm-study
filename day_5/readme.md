@@ -7,7 +7,7 @@
 [백준 시뮬레이션 문제집](https://www.acmicpc.net/problemset?sort=ac_desc&algo=141)
 |  순번   |     추천 문제      |                                 문제 번호                                 |                                  문제 이름                                   |                                       난이도                                       |
 | :-----: | :----------------: | :-----------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
-| Day5-00 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/1063" target="_blank">1063</a> |   <a href="https://www.acmicpc.net/problem/1063" target="_blank">공</a>   | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/3.svg"/>  |
+| Day5-00 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/1547" target="_blank">1547</a> |   <a href="https://www.acmicpc.net/problem/1547" target="_blank">공</a>   | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/3.svg"/>  |
 | Day5-01 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/10971" target="_blank">10971</a>  | <a href="https://www.acmicpc.net/problem/10971" target="_blank"> 외판원 순회2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |
 | Day5-02 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/3190" target="_blank">3190</a>  | <a href="https://www.acmicpc.net/problem/3190" target="_blank">뱀</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>  |
 
