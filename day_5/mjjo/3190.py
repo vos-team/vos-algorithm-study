@@ -1,16 +1,5 @@
 import sys
 
-sys.stdin = open("day_5/mjjo/3190.txt")
-input = sys.stdin.readline
-
-N = int(input())
-
-loc_apple = [list(map(lambda x: int(x)-1, input().split())) for _ in range(int(input()))]
-
-order_dic = {}
-for _ in range(int(input())):
-    turn, dir = input().split()
-    order_dic[int(turn)] = dir
 
 # 지도와 뱀, 사과를 매턴 확인하기 위한 출력 함수
 def printMap(loc_apple, loc_snake):
@@ -50,7 +39,20 @@ def checkOrder(turn, order_dic, dir):
         dir = 0
     return dir
 
+
+sys.stdin = open("day_5/mjjo/3190.txt")
+input = sys.stdin.readline
+
+N = int(input())
+
 loc_snake = [[0, 0]]
+loc_apple = [list(map(lambda x: int(x)-1, input().split())) for _ in range(int(input()))]
+
+order_dic = {}
+for _ in range(int(input())):
+    turn, dir = input().split()
+    order_dic[int(turn)] = dir
+
 turn = 0
 dir = 1 # 초기방향 오른쪽
 dir_dic = { # 시계방향으로 top - right - bottom - left
@@ -84,6 +86,7 @@ while 1:
     else:
         break
 
+    # 사과 먹은 유무에 따른 loc_apple, loc_snake 처리
     if is_true:
         loc_apple.pop(idx)
     else:
