@@ -26,7 +26,7 @@ def solution(N, apples, moves):
             self.body = [self.head]
             self.board = board
             for part in self.body:
-                board[part[0]][part[1]] = -1
+                board[part[0]][part[1]] = -1  # 뱀의 몸체가 위치한 좌표는 -1 표시
             self.rotation = {
                 "L": ((0, -1), (1, 0)),
                 "D": ((0, 1), (-1, 0)),
@@ -39,17 +39,19 @@ def solution(N, apples, moves):
                 self.head[1] + self.direction[1],
             )
             if self.board[new_head[0]][new_head[1]] == -1:
-                return False
+                return False  # 나아간 곳이 -1이면 죽음
 
             if self.board[new_head[0]][new_head[1]] == 1:
-                self.length += 1
+                self.length += 1  # 나아간 곳이 1이면(사과) 몸길이 1증가
             else:
-                self.board[self.body[0][0]][self.body[0][1]] = 0
+                self.board[self.body[0][0]][
+                    self.body[0][1]
+                ] = 0  # 나아간 곳에 사과가 없으면 꼬리(index=0) 좌표 0으로 되돌림
 
-            self.head = new_head
-            self.board[self.head[0]][self.head[1]] = -1
-            self.body.append(self.head)
-            self.body = self.body[-self.length :]
+            self.head = new_head  # 살아있으면 new_head를 머리로 지정
+            self.board[self.head[0]][self.head[1]] = -1  # 추가된 머리의 죄표에 해당하는 보드판을 -1로 변경
+            self.body.append(self.head)  # self.body 에 머리 추가
+            self.body = self.body[-self.length :]  # 현재 몸길이만큼 self.body 슬라이싱
             return True
 
         def rotate(self, C):
@@ -62,12 +64,17 @@ def solution(N, apples, moves):
     board = (
         [[-1] * (N + 2)] + [[-1] + [0] * N + [-1] for _ in range(N)] + [[-1] * (N + 2)]
     )
+    # 보드판 정의(N+2 * N+2) 크기로 만들고 테두리는 -1, 안쪽 N*N 영역은 0으로 채워둠
+
     for apple_y, apple_x in apples:
         board[apple_y][apple_x] = 1
+    # 사과 좌표마다 1로 채워둠
 
     s = snake(board)
+
     result = 1
-    while s.proceed():
+    while s.proceed():  # 1초 앞으로 나가면서 시작
+
         if len(moves):
             X, C = moves[0]
 
