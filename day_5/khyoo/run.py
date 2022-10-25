@@ -22,10 +22,17 @@ dummy_input = """6
 15 L
 17 D"""
 
+calc_days_input = """1 16 16"""
+calc_days_input_2 = """1 1 1"""
+calc_days_input_3 = """1 2 3"""
+
 tests = [
     ("00_ball.py", ball_input),
     ("01_tsp.py", tsp_input),
     ("02_dummy.py", dummy_input),
+    ("03_calc_days.py", calc_days_input),
+    ("03_calc_days.py", calc_days_input_2),
+    ("03_calc_days.py", calc_days_input_3),
 ]
 
 for fp, input_text in tests:
