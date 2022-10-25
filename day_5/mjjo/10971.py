@@ -18,6 +18,9 @@ for l in permutations([_ for _ in range(N)], N):
             i, j = l[idx], l[0]
         if arr[i][j]:
             sum += arr[i][j]
+            if sum > min_cost:
+                is_true = False
+                break
         else:
             is_true = False
             break
@@ -55,3 +58,24 @@ for i in range(N):
     dfs_backtracking(i, i, 0, [i], )
 
 print(min_cost)
+
+
+# 3
+def dfs_backtracking(depth, start, cost):
+    print(visited)
+    global min_cost
+    if depth == N-1 and arr[start][0] != 0:
+        min_cost = min(min_cost, cost+arr[start][0])
+        return 
+
+    for i in range(N):
+        if not visited[i] and arr[start][i] != 0:
+            visited[i] = 1
+            dfs_backtracking(depth+1, i, cost+arr[start][i])
+            visited[i] = 0
+
+visited = [0] * N
+visited[0] = 1
+dfs_backtracking(0, 0, 0)
+print(min_cost)
+
