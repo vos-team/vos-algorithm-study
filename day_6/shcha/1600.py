@@ -47,4 +47,3 @@ K = int(input())
 W, H = map(int, input().split())
 arr = tuple(tuple(map(int, input().split())) for _ in range(H))
 print(bfs())
-출처: https://dalseoin.tistory.com/entry/백준-파이썬-1600-말이-되고픈-원숭이 [Dalin's Archive:티스토리]
