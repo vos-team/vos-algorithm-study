@@ -46,13 +46,20 @@ monkey_input_2 = """2
 0 0 1 1 0
 0 0 1 1 0"""
 
-monkey_input_3 = '''3
+monkey_input_3 = """3
 4 5
 0 1 1 1
 1 1 0 1
 1 1 1 1
 1 1 1 0
-1 1 1 0'''
+1 1 1 0"""
+
+ra_input = """3 4 5
+3 2
+2 2
+3 1
+2 3
+1 1"""
 
 tests = [
     ("00_search.py", search_input),
@@ -63,6 +70,7 @@ tests = [
     ("02_monkey.py", monkey_input),
     ("02_monkey.py", monkey_input_2),
     ("02_monkey.py", monkey_input_3),
+    ("03_10ra.py", ra_input),
 ]
 
 for fp, input_text in tests:
