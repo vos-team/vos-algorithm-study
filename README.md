@@ -70,6 +70,8 @@ PR은 코드리뷰 완료가 되었다고 판단되면 admin인 무진님께서 
 | Day5-01 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/10971" target="_blank">10971</a> | <a href="https://www.acmicpc.net/problem/10971" target="_blank"> 외판원 순회2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>  |
 | Day5-02 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/3190" target="_blank">3190</a>  |       <a href="https://www.acmicpc.net/problem/3190" target="_blank">뱀</a>       | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
 
+---
+
 ### **_Day 6 문제 리스트_**
 
 |  순번   |     추천 문제      |                                 문제 번호                                 |                                       문제 이름                                       |                                      난이도                                       |
@@ -77,3 +79,13 @@ PR은 코드리뷰 완료가 되었다고 판단되면 admin인 무진님께서 
 | Day6-00 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/1260" target="_blank">1260</a>  |     <a href="https://www.acmicpc.net/problem/1260" target="_blank">DFS와 BFS</a>      | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |
 | Day6-01 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/11724" target="_blank">11724</a> | <a href="https://www.acmicpc.net/problem/11724" target="_blank">연결 요소의 개수</a>  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |
 | Day6-02 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/1600" target="_blank">1600</a>  | <a href="https://www.acmicpc.net/problem/1600" target="_blank">말이 되고픈 원숭이</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |
+
+---
+
+### **_Day 7 문제 리스트_**
+
+|  순번   |     추천 문제      |                                 문제 번호                                 |                                       문제 이름                                       |                                      난이도                                       |
+| :-----: | :----------------: | :-----------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+| Day7-00 | :heavy_check_mark: |  <a href="https://www.acmicpc.net/problem/1197" target="_blank">1197</a>  |     <a href="https://www.acmicpc.net/problem/1197" target="_blank">최소 스패닝트리</a>      | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
+| Day7-01 | :heavy_check_mark: | <a href="https://www.acmicpc.net/problem/1647" target="_blank">1647</a> | <a href="https://www.acmicpc.net/problem/1647" target="_blank">도시 분할 계획</a>  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
+| Day7-02 | :heavy_check_mark: |  <a href="https://https://www.acmicpc.net/problem/21924" target="_blank">21924</a>  | <a href="https://www.acmicpc.net/problem/21924" target="_blank">도시 건설</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
