@@ -8,11 +8,14 @@ visited = []
 heap = []
 for _ in range(E):
     A, B, C = map(int, input().split())
-    heap.append([C, A-1, B-1]) # heap.append([C, A, B]) 1, 2번
-heap.sort(reverse=True)
+    heapq.heappush(heap, [C, A-1, B-1])
+# for _ in range(E):
+#     A, B, C = map(int, input().split())
+    # heap.append([C, A-1, B-1]) # heap.append([C, A, B]) 1, 2번
+# heap.sort(reverse=True)
 res = 0
 cnt = 0
-
+print(heap)
 # 1
 def check(node_a, node_b):
     global visited
