@@ -3,17 +3,19 @@ import sys
 def input():
     return sys.stdin.readline().rstrip()
 
-vertices = set()
 edges = []
-
+parent, rank = dict(), dict()
 v, e = map(int, input().split())
+
+def make_set(node):
+    parent[node] = node
+    rank[node] = 0
+
+[make_set(node) for node in range(1, v+1)]
 
 for i in range(e):
     node_a, node_b, weight = map(int, input().split())
-    vertices.add(node_a)
-    vertices.add(node_b)
     edges.append((weight, node_a, node_b))
-parent, rank = dict(), dict()
 
 def union(node_a, node_b):
     root_a, root_b = find(node_a), find(node_b)
@@ -29,27 +31,13 @@ def find(node):
         parent[node] = find(parent[node])
     return parent[node]
     
-def make_set(node):
-    parent[node] = node
-    rank[node] = 0
-    
-def kruskal(vertices, edges):
-    result = []
-    for node in vertices:
-        make_set(node)
-    
+def kruskal(edges):
+    result = 0
     for edge in sorted(edges):
         weight, node_a, node_b = edge
-        
         if find(node_a) != find(node_b):
             union(node_a, node_b)
-            result.append(edge)
+            result += weight
     return result 
 
-
-mst = kruskal(vertices, edges)
-count = 0
-for weight, node_a, node_b in mst:
-    count += weight
-print(count)
-    
+print(kruskal(edges))
